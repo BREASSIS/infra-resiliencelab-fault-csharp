@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilienceLab.Faults", "src\ResilienceLab.Faults\ResilienceLab.Faults.csproj", "{855E00B6-E74C-4FA2-B3AF-28798C4C084B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilienceLab.Simulation", "src\ResilienceLab.Simulation\ResilienceLab.Simulation.csproj", "{7CE81ABD-BEA7-4467-B2B0-21CC9AF37EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilienceLab.Observability", "src\ResilienceLab.Observability\ResilienceLab.Observability.csproj", "{45D4FC09-7CC8-45FB-A840-4717FD601C78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilienceLab.Api", "src\ResilienceLab.Api\ResilienceLab.Api.csproj", "{2CC68A7C-B802-466E-AB71-78E879F31014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilienceLab.Cli", "src\ResilienceLab.Cli\ResilienceLab.Cli.csproj", "{2A32E303-49BB-4215-8A82-EEA0F4B2E6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilienceLab.Sdk", "src\ResilienceLab.Sdk\ResilienceLab.Sdk.csproj", "{D2C9EBB3-9B4E-424B-BA7F-477C0F888AE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{736EAB37-80EA-475C-9A38-F62AD330D300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilienceLab.Faults.UnitTests", "tests\ResilienceLab.Faults.UnitTests\ResilienceLab.Faults.UnitTests.csproj", "{24FF5549-2BC7-48FF-9E7D-52C9DAB9C446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilienceLab.Api.IntegrationTests", "tests\ResilienceLab.Api.IntegrationTests\ResilienceLab.Api.IntegrationTests.csproj", "{069ED18D-C70C-468C-B5E8-DD1C9C496ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResilienceLab.EndToEndTests", "tests\ResilienceLab.EndToEndTests\ResilienceLab.EndToEndTests.csproj", "{BAD45DBA-B91C-4003-B013-F060485932C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{855E00B6-E74C-4FA2-B3AF-28798C4C084B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{855E00B6-E74C-4FA2-B3AF-28798C4C084B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{855E00B6-E74C-4FA2-B3AF-28798C4C084B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{855E00B6-E74C-4FA2-B3AF-28798C4C084B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE81ABD-BEA7-4467-B2B0-21CC9AF37EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE81ABD-BEA7-4467-B2B0-21CC9AF37EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE81ABD-BEA7-4467-B2B0-21CC9AF37EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE81ABD-BEA7-4467-B2B0-21CC9AF37EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D4FC09-7CC8-45FB-A840-4717FD601C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D4FC09-7CC8-45FB-A840-4717FD601C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D4FC09-7CC8-45FB-A840-4717FD601C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D4FC09-7CC8-45FB-A840-4717FD601C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC68A7C-B802-466E-AB71-78E879F31014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC68A7C-B802-466E-AB71-78E879F31014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC68A7C-B802-466E-AB71-78E879F31014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC68A7C-B802-466E-AB71-78E879F31014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A32E303-49BB-4215-8A82-EEA0F4B2E6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A32E303-49BB-4215-8A82-EEA0F4B2E6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A32E303-49BB-4215-8A82-EEA0F4B2E6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A32E303-49BB-4215-8A82-EEA0F4B2E6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C9EBB3-9B4E-424B-BA7F-477C0F888AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C9EBB3-9B4E-424B-BA7F-477C0F888AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C9EBB3-9B4E-424B-BA7F-477C0F888AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C9EBB3-9B4E-424B-BA7F-477C0F888AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FF5549-2BC7-48FF-9E7D-52C9DAB9C446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FF5549-2BC7-48FF-9E7D-52C9DAB9C446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FF5549-2BC7-48FF-9E7D-52C9DAB9C446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FF5549-2BC7-48FF-9E7D-52C9DAB9C446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069ED18D-C70C-468C-B5E8-DD1C9C496ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069ED18D-C70C-468C-B5E8-DD1C9C496ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069ED18D-C70C-468C-B5E8-DD1C9C496ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069ED18D-C70C-468C-B5E8-DD1C9C496ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD45DBA-B91C-4003-B013-F060485932C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD45DBA-B91C-4003-B013-F060485932C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD45DBA-B91C-4003-B013-F060485932C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD45DBA-B91C-4003-B013-F060485932C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{855E00B6-E74C-4FA2-B3AF-28798C4C084B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7CE81ABD-BEA7-4467-B2B0-21CC9AF37EAA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{45D4FC09-7CC8-45FB-A840-4717FD601C78} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2CC68A7C-B802-466E-AB71-78E879F31014} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2A32E303-49BB-4215-8A82-EEA0F4B2E6CC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D2C9EBB3-9B4E-424B-BA7F-477C0F888AE2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{24FF5549-2BC7-48FF-9E7D-52C9DAB9C446} = {736EAB37-80EA-475C-9A38-F62AD330D300}
+		{069ED18D-C70C-468C-B5E8-DD1C9C496ADC} = {736EAB37-80EA-475C-9A38-F62AD330D300}
+		{BAD45DBA-B91C-4003-B013-F060485932C7} = {736EAB37-80EA-475C-9A38-F62AD330D300}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDFD3B0A-C480-49F8-BB80-60E9EAC65C58}
+	EndGlobalSection
+EndGlobal
