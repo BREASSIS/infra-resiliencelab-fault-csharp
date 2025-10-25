@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ResilienceLab.Faults\ResilienceLab.Faults.csproj" />
-    <ProjectReference Include="..\ResilienceLab.Observability\ResilienceLab.Observability.csproj" />
+    <ProjectReference Include="..\..\Core\Infra.ResilienceLab.Faults\Infra.ResilienceLab.Faults.csproj" />
   </ItemGroup>
 
 </Project>
